@@ -8,12 +8,12 @@ const CONFIG = {
   projects: {
     sheetName: 'Projects',
     idPrefix: 'PRJ',
-    headers: { id: 'Id', name: 'Name', priority: 'Priority', status: 'Status', dueDate: 'DueDate', docUrl: 'Document URL' }
+    headers: { id: 'Id', name: 'Name', priority: 'Priority', status: 'Status', dueDate: 'DueDate', docUrl: 'DocumentUrl' }
   },
   tasks: {
     sheetName: 'Tasks',
     idPrefix: 'TSK',
-    headers: { id: 'Id', project: 'Project', name: 'Name', priority: 'Priority', status: 'Status', dueDate: 'DueDate', docUrl: 'Document URL' }
+    headers: { id: 'Id', project: 'Project', name: 'Name', priority: 'Priority', status: 'Status', dueDate: 'DueDate', docUrl: 'DocumentUrl' }
   },
   unassignedFolderName: '_未割当タスク'
 };
